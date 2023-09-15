@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #000;
+  height: 100%;
+}
+
+.block_1 {
+  display: flex;
+}
+
+header,
+main,
+footer {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_container {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+  height: 65%;
+
+  img {
+    object-fit: cover;
+    &:first-child {
+      object-fit: cover;
+      width: 100%;
+      position: relative;
+      z-index: 0;
+    }
+  }
+  section {
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    .block_1 {
+      display: block;
+      color: #fafafa;
+      margin: 150px;
+      margin-left: 30px;
+
+      h2,
+      h4,
+      p {
+        color: inherit;
+      }
+      .icons_ff {
+        display: flex;
+        color: white;
+      }
+      .box_1 {
+        display: flex;
+        width: 40%;
+        border: 1px solid;
+        font-size: 17px;
+        border-radius: 20px;
+        background: rgb(254, 203, 109);
+        padding: 8px;
+        color: #000;
+        gap: 5px;
+        margin: 100px;
+        margin-top: 20px;
+        margin-left: 0px;
+      }
+      .color_text {
+        color: rgb(225, 169, 65);
+      }
+    }
+  }
+}
+.peolpe_block {
+  color: white;
+  position: absolute;
+  bottom: 8px;
+  font-size: 17px;
+  border: 1px solid rgb(240, 213, 92);
+  height: 8%;
+  width: 11%;
+  text-align: center;
+  border-radius: 10px;
+  padding: 8px;
+  background: rgb(91, 89, 89);
+  margin-inline-start: 100px;
+  margin: 250px;
+  margin-right: 70px;
+}
+
+.color_text2 {
+  color: rgb(225, 169, 65);
+}
+.bg_container2 {
+  color: #fafafa;
+  display: flex;
+  margin-top: 700px;
+  margin-left: 500px;
+  gap: 60px;
+  font-size: 17px;
+}
+.fff {
+  text-align: right;
+  margin-top: 70px;
+}
+.box_2 {
+  margin-top: 20px;
+}
+.color_text3 {
+  color: rgb(225, 169, 65);
+}
+.color_text4 {
+  color: rgb(225, 169, 65);
+}
+.bg_container3 {
+  text-align: center;
+  padding-top: 30px;
+  padding-left: 100px;
+  color: #fafafa;
+}
+ul {
+  border: 1px solid rgb(112, 112, 112);
+  text-align: left;
+  width: 10%;
+  gap: 50px;
+  border-radius: 10px;
+  padding: 0;
+  margin-left: 200px;
+  grid-template-rows: auto;
+}
